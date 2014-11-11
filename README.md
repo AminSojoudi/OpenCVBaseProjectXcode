@@ -2,13 +2,12 @@ OpenCVBaseProjectXcode
 ======================
 This is a simple OpenCV sample in xcode
 to run this you should first install OpenCV from Brew
-
+```
 brew tap homebrew/science
-
 brew install opencv
-
+```
 steps that i have done in Xcode 5:
-
+``` 
 Create a new Xcode project as OS X Application -> Command Line Tool, etc.
 Click the target in the upper left
 Click the Build Settings tab
@@ -22,3 +21,4 @@ If you want pre-set command-line arguments, go to Product -> Scheme -> Edit Sche
 Click the Run tab on the left
 Click the Arguments tab
 Enter arguments into Arguments Passed on Launch
+```
